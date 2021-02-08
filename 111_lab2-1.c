@@ -4,7 +4,7 @@ int main()
     int a,b,c,sum=0;
     scanf("%d\n%d\n%d",&a,&b,&c);
     sum=a+b+c;
-    if(sum>=80)
+    if(sum>=80&&sum<=100)
         printf("A");
     else if(sum>=75)
         printf("B+");
