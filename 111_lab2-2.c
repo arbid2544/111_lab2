@@ -14,7 +14,7 @@ int main()
    {
        x=time*100-20000;
        x=(int)(x/100);
-       printf("%f",x);
+       //printf("%f",x);
        y=x*3;
        k=(k*3)/60;
        z=199+y+k;
@@ -28,6 +28,6 @@ int main()
        k=(k*2)/60;
        z=299+y+k;
    }
-   printf("%f\n",k);
+   //printf("%f\n",k);
    printf("%.2f",z);
 }
