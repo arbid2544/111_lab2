@@ -16,7 +16,6 @@ int main()
         default :
            x=30;
    }
-   printf("%d",x+a);
    while(i<x-1)
    {
       i+=7;
