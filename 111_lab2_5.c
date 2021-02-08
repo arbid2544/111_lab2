@@ -2,8 +2,7 @@
 int main()
 {
    int a,b,i=1,x;
-   scanf("%d",&a);
-   scanf("%d",&b);
+   scanf("%d %d",&a,&b);
    switch(b){
         case 1:
         case 3:
@@ -22,7 +21,7 @@ int main()
    }
    for(i;i<=x;i++)
     x+=1;
-   if(x>7)
-    x-=7;
-   printf("%d",x);
+   if(a>7)
+    a-=7;
+   printf("%d",a);
 }
