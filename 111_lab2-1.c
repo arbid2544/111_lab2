@@ -15,9 +15,9 @@ int main()
     else if(sum>=60)
         printf("C");
     else if(sum>=55)
-        printf("D");
-    else if(sum>=50)
         printf("D+");
+    else if(sum>=50)
+        printf("D");
     else
         printf("F");
     return 0;
