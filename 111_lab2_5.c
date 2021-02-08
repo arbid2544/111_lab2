@@ -20,11 +20,9 @@ int main()
       i+=7;
    }
    for(i;i<=x;i++)
-    {
         a+=1;
-    }
-    if(a>7)
+   if(a>7)
         a-=7;
-    printf("%d",a);
-    return 0;
+   printf("%d",a);
+   return 0;
 }
