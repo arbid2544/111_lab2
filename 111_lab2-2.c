@@ -27,5 +27,5 @@ int main()
        k=(k*2)/60;
        z=299+y+k;
    }
-   printf("%.2f",z);
+   printf("%.2f",z );
 }
