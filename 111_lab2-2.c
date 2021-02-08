@@ -8,6 +8,7 @@ int main()
    fflush(stdin);
    scanf("%f",&time);
    w=time*100;
+
    w=w%100;
    k=w;
    if(C=='A')
